@@ -73,6 +73,7 @@ componentDidMount(){
        }))
        
        axios.post('http://localhost:8080/set',newData)
+      
     .then(response=>{
         console.log(response)
         //this.setState({List1:response.data})
